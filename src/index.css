@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/* Leaflet Custom Styling Overrides */
+.leaflet-popup-content-wrapper {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+  border-radius: 14px !important;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5), 0 8px 10px -6px rgb(0 0 0 / 0.5) !important;
+  border: 1px solid #334155 !important;
+  padding: 4px !important;
+}
+
+.leaflet-popup-tip {
+  background: #0f172a !important;
+  border: 1px solid #334155 !important;
+}
+
+.leaflet-popup-content {
+  margin: 10px !important;
+  line-height: 1.4 !important;
+}
+
+.custom-drain-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.leaflet-container {
+  font-family: inherit !important;
+}
+
+/* Quest item list styling */
+.quest-item {
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #1e293b;
+  border-left: 4px solid #22c55e;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  color: #f1f5f9;
+  list-style: none;
+}
+
+.quest-item:hover {
+  background: #334155;
+  transform: translateX(3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.quest-item.warning {
+  border-left-color: #eab308;
+}
+
+.quest-item.danger {
+  border-left-color: #ef4444;
+}
+
+/* Coordinate picker button control */
+#btnPick {
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 8px 14px;
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#btnPick:hover {
+  background: #1e293b;
+  border-color: #475569;
+}
+

@@ -1,0 +1,10 @@
+{
+  "name": "Remix DrainMap Vũng Tàu - Bản Đồ Thoát Nước \u0026 Cảnh Báo Ngập",
+  "description": "Hệ thống số hóa khảo sát cống thoát nước và cảnh báo ngập lụt đô thị thành phố Vũng Tàu (Phường Phước Thắng và Phường Tam Thắng).",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
